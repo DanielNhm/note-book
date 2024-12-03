@@ -76,7 +76,7 @@ export function NoteAdd({ onAddNote }) {
                 />
             }
             {!noteType && (
-                <section>
+                <section className="flex">
                     <button data-social="Image" onClick={() => {
                         setNoteType('NoteImg')
                         document.getElementById('upload').click()
