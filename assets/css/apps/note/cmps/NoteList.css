@@ -1,0 +1,31 @@
+ /* note list */
+
+ .note-list{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start:100px;
+    margin-top: 60px;
+
+}
+
+.note {
+    display: inline-block; 
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(228, 226, 226);
+    word-wrap: break-word; 
+    max-width: 300px; 
+    min-width: 150px; 
+    margin: 10px;
+}
+
+.note:hover{
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+.note-list .category-title{
+    color: rgb(95, 99, 104);
+    font-size: .6875rem;
+    font-weight: 500;
+    line-height: 1rem;
+}

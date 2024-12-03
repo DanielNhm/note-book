@@ -1,0 +1,37 @@
+.books-filter .search{
+  width: 50%;
+ 
+
+}
+
+.books-filter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.books-filter form input {
+  margin-block: 5px 10px;
+}
+
+.books-filter .txt-input-container input {
+  width: 100px;
+}
+
+.books-filter .txt-input-container input:first-of-type {
+  margin-inline-end: 10px;
+}
+
+@media(width<600px) {
+  .books-filter .search{
+    width: 100%;
+    height: 20%;
+   
+  
+  }
+}
+
+/* .books-filter form button {
+  background-color: var(--light-green);
+} */

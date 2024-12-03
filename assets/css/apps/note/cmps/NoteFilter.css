@@ -1,0 +1,72 @@
+.sidebar {
+    left: 0;
+    top: 109px;
+    width: 50px; 
+    position: absolute;
+    height: 100vh;
+    background-color: white;
+    transition: width 0.3s ease; 
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.sidebar:hover {
+    width: 200px;
+    border: 1px solid rgb(228, 228, 228);
+    border-top: none;
+}
+
+.note-filter {
+    gap: 25px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.note-filter button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background-color 0.2s ease; 
+    border-radius: 50%;
+    line-height: 1.5rem; 
+    height: 50px;
+}
+
+
+
+.note-filter button:hover {
+    background-color: rgba(95, 99, 104, 0.157);
+}
+
+.note-filter button i {
+    font-size: 1.5rem; 
+}
+
+.note-filter span {
+    opacity: 0; 
+    margin-inline-start: 20px;
+    font-weight: 600;
+    color: #554f4f;
+    transition: opacity 0.3s ease; 
+}
+
+.sidebar:hover span {
+    opacity: 1; 
+}
+
+.note-filter button.active{
+    background-color: #feefc3;
+
+}
+
+.note-filter:hover button {
+    border-radius: 0 20px 20px 0;
+}
+

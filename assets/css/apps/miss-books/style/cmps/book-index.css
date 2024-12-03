@@ -1,0 +1,50 @@
+.book-index {
+  position: relative;
+  margin-block-start: 20px;
+  width: 100%;
+}
+
+
+
+.book-index .add-book-btn,
+.book-index .google-book {
+  top: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+.book-index a:hover {
+  filter: brightness(90%);
+}
+
+.book-index .add-book-btn:hover,
+.book-index .google-book:hover {
+  scale: 1.1;
+  color: rgb(96, 83, 32);
+  border: 2px solid rgb(96, 83, 32);
+
+
+}
+
+.book-index .top-menu {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.top-menu .books-filter {
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+
+@media(width<600px) {
+  .book-index .top-menu {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

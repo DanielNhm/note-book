@@ -1,0 +1,35 @@
+.note-preview {
+    position: relative;
+}
+
+.note-preview button {
+    border: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.note-preview button:hover:not(button span) {
+    border-radius: 50%;
+    background-color: rgba(95, 99, 104, 0.157);
+}
+
+.fa-regular {
+    color: #202124;
+}
+
+.note-preview .material-symbols-outlined {
+    position: absolute;
+    right: -3px;
+    top: -3px;
+}
+
+.note-preview .actions-container {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.note-preview:hover .actions-container {
+
+    opacity: 1;
+}

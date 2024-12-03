@@ -1,0 +1,56 @@
+.review-list {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid silver;
+  overflow: hidden;
+}
+
+.review-list thead {
+  background-color: #f1f3f4;
+  text-align: left;
+}
+
+.review-list thead tr td {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5f6368;
+  padding: 1rem;
+  border-bottom: 2px solid #dadce0;
+}
+
+.review-list tbody tr {
+  border-bottom: 1px solid #dadce0;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.review-list tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.review-list tbody td {
+  font-size: 0.9rem;
+  color: #202124;
+  padding: 1rem;
+}
+
+.review-list tbody td img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.review-list tbody td img:hover {
+  transform: scale(1.1);
+}
+
+.no-info-msg {
+  font-size: 1.2rem;
+  color: #5f6368;
+  text-align: center;
+  margin-top: 2rem;
+}

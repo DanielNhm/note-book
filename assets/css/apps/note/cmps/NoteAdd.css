@@ -1,0 +1,131 @@
+.note-add {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .20);
+    background-color: #fff;
+    margin-top: 40px;
+    position: relative;
+}
+
+.note-add button:not(.cls-btn>*) {
+    background: none;
+    border: none;
+    margin: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #5b5d60;
+}
+
+.cls-btn {
+    flex-grow: 1;
+    margin-top: 15px;
+}
+
+.note-add button:hover:not(.cls-btn>*) {
+    color: #202124;
+    scale: 1.1;
+}
+
+.note-add .cls-btn button:hover {
+    background-color: rgba(191, 196, 203, 0.157);
+
+}
+
+.note-add .cls-btn button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+
+
+}
+
+
+
+.note-add input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.note-add input[type="text"]:focus {
+    border-bottom: 1px solid #ced2d8;
+
+}
+
+.note-add img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+}
+
+.note-add input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.note-add .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 5px;
+}
+
+.note-add input[type="text"],
+.note-add textarea {
+    min-height: 40px;
+    resize: none;
+}
+
+@media (max-width: 600px) {
+    .note-add {
+        width: 90%; 
+        max-width: 300px;
+        font-size: 14px; 
+        padding: 8px;
+        margin-top: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    }
+
+    .note-add button:not(.cls-btn > *) {
+        font-size: 14px; 
+        margin: 5px;
+    }
+
+    .note-add input[type="text"] {
+        width: 100%; 
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .note-add .todo-item {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .note-add img {
+        border-radius: 5px;
+    }
+
+    .cls-btn {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .note-add .cls-btn button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,20 @@
+.miss-books button:not(.star-rating button):not(.save-btn):not(.close-btn) {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+   margin: 0.5em; 
+  border: none; 
+  padding: 0.5em 0.8em; 
+  border-radius: 4px;
+  background-color:inherit;
+  font-size: 18px;
+
+}
+
+.miss-books button:not(.star-rating button):not(.save-btn):hover :not(.book-add-list button i):hover{
+  filter: brightness(85%);
+  transition: 0.2s;
+  scale:1.1;
+
+}
+

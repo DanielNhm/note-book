@@ -1,0 +1,95 @@
+header {
+    background: rgba(245, 241, 235, 0.855);
+    border-bottom: 2px solid white;
+    /* height:110px; */
+
+}
+
+header.notebook-header{
+        height:110px;
+
+}
+
+header.keep-header{
+    height: 60px;
+}
+
+
+.app-header {
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    width: 100%;
+    position: relative;
+}
+
+.app-header img {
+    
+    width: 150px;
+    overflow: visible;
+    height: 70px;
+    aspect-ratio: 0.722;
+    margin: 5px;
+}
+
+.app-header .img-keep{
+    width: 40px;
+    height: 55px;
+}
+
+
+
+
+
+
+nav a {
+    margin: .5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.app-header nav{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 99999;
+    border: 1px solid silver;
+    background-color: white;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0 3px 3px rgba(101, 101, 101, 0.2);
+
+
+}
+
+.app-header nav img{
+    width: 30px;
+    height: 45px;
+    border-radius: 5px;
+    line-height: 50px;
+    align-self: center;
+}
+.app-header nav i{
+    scale: 1.5;
+    line-height: 50px;
+    align-self: center;
+}
+
+.fa .fa-book{
+    transform: rotate(90deg);
+}
+.app-name{
+    display: none;
+}
+
+@media(min-width:600px){
+    .app-name{
+        display: revert;
+    }
+}

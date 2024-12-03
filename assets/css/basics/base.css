@@ -1,0 +1,55 @@
+html {
+    font-family: lato, serif;
+    line-height: 1.25;
+}
+body {
+    margin: 0;
+    font-size: 0.5rem;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.keep-background{
+    background-color: white;
+    border-bottom: silver 2px solid;
+}
+canvas {
+    display: block;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+@font-face {
+    font-family: lato;
+    src: url("../../fonts/Lato-Bold.ttf");
+}
+
+@media(min-width:600px){
+    body{
+
+        font-size: revert;
+    }
+}
+
+

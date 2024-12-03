@@ -1,0 +1,98 @@
+.edit-book {
+  display: flex;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.edit-book-container {
+  background-color: #fff; 
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.edit-book-container h2 {
+  font-size: 1.5rem;
+  color: #202124;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.edit-book-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+}
+
+.edit-book-container label {
+  font-size: 0.9rem;
+  color: #5f6368;
+  margin-bottom: 0.2rem;
+}
+
+.edit-book-container input[type="text"],
+.edit-book-container input[type="number"],
+.edit-book-container input[type="checkbox"] {
+  padding: 0.8rem;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #202124;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.edit-book-container input:focus {
+  outline: none;
+  border-color: #1a73e8; 
+}
+
+.edit-book-container .save-btn {
+  background-color: #fdfdfd; 
+  color: rgb(92, 83, 83);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 24px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.edit-book-container .save-btn:hover {
+  color: #344438;
+  scale: 1.1;
+}
+
+.edit-book-container .save-btn:focus {
+  outline: none;
+}
+
+.edit-book-container .save-btn:active {
+  transform: translateY(0); 
+}
+
+.edit-book-container a {
+  display: inline-block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #1764c8;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.edit-book .close-btn{
+  padding: 0.8rem 1rem;
+  background: none;
+  color: slategrey;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 1.5rem;
+}
+
+
+
+

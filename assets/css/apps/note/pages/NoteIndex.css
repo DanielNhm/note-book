@@ -1,0 +1,15 @@
+ /* note index */
+
+ .note-index button:not(.remove-tooltip):hover:before {
+    content: attr(data-social);
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    font-size: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    transform: translateX(-10px);
+    transform: translateY(20px);
+ }
